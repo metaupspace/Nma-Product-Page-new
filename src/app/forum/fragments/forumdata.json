@@ -1,0 +1,40 @@
+[
+    {
+        "question": {
+            "profileAvatar": "",
+            "postedBy": "User 01",
+            "question": "How does ChatGPT understand and generate human-like responses?"
+        },
+        "answers": [
+            {
+                "profileAvatar": "",
+                "postedBy": "User 02",
+                "answer": "ChatGPT uses a large language model trained on massive datasets of human text. It doesn’t “understand” like humans do, but it predicts the next best word based on context using probability. This allows it to generate coherent and contextually relevant sentences."
+            },
+            {
+                "profileAvatar": "",
+                "postedBy": "User 03",
+                "answer": "AI can mimic creativity, generate visuals, or write poems, but it lacks intention and emotion. While it can assist and even inspire creatives, full replacement is unlikely."
+            }
+        ]
+    },
+    {
+        "question": {
+            "profileAvatar": "",
+            "postedBy": "User 01",
+            "question": "How does ChatGPT understand and generate human-like responses?"
+        },
+        "answers": [
+            {
+                "profileAvatar": "",
+                "postedBy": "User 02",
+                "answer": "ChatGPT uses a large language model trained on massive datasets of human text. It doesn’t “understand” like humans do, but it predicts the next best word based on context using probability. This allows it to generate coherent and contextually relevant sentences."
+            },
+            {
+                "profileAvatar": "",
+                "postedBy": "User 03",
+                "answer": "AI can mimic creativity, generate visuals, or write poems, but it lacks intention and emotion. While it can assist and even inspire creatives, full replacement is unlikely."
+            }
+        ]
+    }
+]

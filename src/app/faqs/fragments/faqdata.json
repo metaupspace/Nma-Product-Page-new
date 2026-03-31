@@ -1,0 +1,93 @@
+[
+    {
+        "category": "General Platform",
+        "qnalist": [
+            {
+                "question": "What does your AI platform do?",
+                "answer": "Our platform streamlines the entire lifecycle of M&A and divestitures with AI-driven workflows, actionable insights, and real-time analytics—purpose-built for Private Equity, Healthcare, Pharma, and LifeSciences sectors."
+            },
+            {
+                "question": "Is the platform customizable for my industry or business model?",
+                "answer": "Absolutely. The platform is modular, highly customizable, and built to scale across varied workflows—clinical, financial, compliance, or operational."
+            },
+            {
+                "question": "Who can benefit from your solutions?",
+                "answer": "Private Equity firms, Healthcare Payers & Providers, Life Sciences and Pharma companies looking to optimize due diligence, deal execution, claims intelligence, and post-merger integration."
+            }
+        ]
+    },
+    {
+        "category": "Security & Compliance",
+        "qnalist": [
+            {
+                "question": "How secure is your platform?",
+                "answer": "We comply with global standards such as HIPAA, SOC 2, GDPR, ISO 27001, and 21 CFR Part 11. Your data is encrypted at rest and in transit."
+            },
+            {
+                "question": "Do you support data residency requirements?",
+                "answer": "Yes, our infrastructure allows you to choose data residency by region (U.S., EU, APAC) based on regulatory and business needs."
+            }
+        ]
+    },
+    {
+        "category": "Integration & Technical",
+        "qnalist": [
+            {
+                "question": "Can your platform integrate with our existing systems?",
+                "answer": "Yes. We offer robust APIs, prebuilt connectors, and integration guides for systems like EHRs, ERPs, CRMs, financial tools, and CDMOs."
+            },
+            {
+                "question": "What technologies power your platform?",
+                "answer": "We leverage GenAI, NLP, large language models (LLMs), and industry-specific AI pipelines. Deployment options include SaaS, on-prem, and hybrid."
+            }
+        ]
+    },
+    {
+        "category": "Beta Access & Trials",
+        "qnalist": [
+            {
+                "question": "How can I sign up for beta testing?",
+                "answer": "You can apply via our Beta Testing Program section. Selected users receive early access, direct support, and influence over product roadmap."
+            },
+            {
+                "question": "Is there a free trial available?",
+                "answer": "Yes, we offer a Pilot Trial with full access to core features. Schedule a demo to explore eligibility."
+            }
+        ]
+    },
+    {
+        "category": "Use Cases & Value",
+        "qnalist": [
+            {
+                "question": "How does this help with divestitures or M&A?",
+                "answer": "From intelligent due diligence to compliance tracking and synergy analytics, our platform offers end-to-end support for faster, smarter deal outcomes."
+            },
+            {
+                "question": "How does this support healthcare or pharma or Life Sciences-specific needs?",
+                "answer": "We handle everything from claims lifecycle automation to clinical data intelligence, regulatory compliance, and AI-enhanced manufacturing insights."
+            }
+        ]
+    },
+    {
+        "category": "Pricing & Licensing",
+        "qnalist": [
+            {
+                "question": "How is the platform priced?",
+                "answer": "We offer flexible, usage-based licensing models based on your company size, use case, and deployment preference. Contact sales for custom pricing."
+            }
+        ]
+    },
+    {
+        "category": "Support & Help",
+        "qnalist": [
+            {
+                "question": "What kind of customer support do you offer?",
+                "answer": "We offer 24/7 support, a dedicated customer success team, ticketing system, and a self-service Help Center."
+            },
+            {
+                "question": "Where can I find documentation?",
+                "answer": "Visit our Developer Portal and Trust Center for integration docs, API references, compliance details, and release notes."
+            }
+        ]
+    }
+]
