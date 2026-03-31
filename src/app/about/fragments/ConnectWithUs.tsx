@@ -3,7 +3,6 @@ import { ShinyButton } from "@/components/magicui/ShinyButton"
 import SectionHeader from "@/components/SectionHeader"
 // import { ArrowRight } from "lucide-react"
 import { useRouter } from "next/navigation"
-
 const ConnectWithUs = () => {
     const router = useRouter()
     return (
