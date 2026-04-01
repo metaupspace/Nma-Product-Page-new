@@ -27,7 +27,7 @@ const navigationItems: NavigationItem[] = [
     { label: "Platform", href: "/" },
     {
         label: "For Private Equity",
-        href: "/about",
+        href: "/",
     },
     {
         label: "Beta Program",
@@ -35,7 +35,7 @@ const navigationItems: NavigationItem[] = [
     },
     {
         label: "About",
-        href: "/about",
+        href: "/",
     }
 ];
 
