@@ -1,9 +1,8 @@
 // import { Poppins } from "next/font/google";
-import Navbar from "@/components/navbar/index";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import "./globals.css";
 
-import FooterSwitcher from "@/components/FooterSwitcher";
+import FooterSwitcher, { NavbarSwitcher } from "@/components/LayoutSwitcher";
 import { Metadata } from "next";
 import { Providers } from "@/components/providers";
 import { avenirNext } from "@/lib/font";
@@ -32,7 +31,7 @@ export default async function RootLayout({
       <body>
         <GoogleAnalytics />
         <Providers>
-          <Navbar />
+          <NavbarSwitcher />
           {children}
           <ClarityProvider />
           <FooterSwitcher />
