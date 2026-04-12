@@ -24,10 +24,10 @@ interface NavigationLinksProps {
 }
 
 const navigationItems: NavigationItem[] = [
-    { label: "Platform", href: "/" },
+    { label: "Platform", href: "/productPage" },
     {
         label: "For Private Equity",
-        href: "/",
+        href: "/productPage",
     },
     {
         label: "Beta Program",
@@ -35,7 +35,7 @@ const navigationItems: NavigationItem[] = [
     },
     {
         label: "About",
-        href: "/",
+        href: "/productPage",
     }
 ];
 

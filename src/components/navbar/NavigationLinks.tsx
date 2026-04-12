@@ -54,6 +54,10 @@ const navigationItems: NavigationItem[] = [
         // ]
     },
     {
+        label:"ConvoSynth",
+        href:"/productPage",
+    },
+    {
         label: "Newsroom",
         href: "/newsroom",
         subItems: [

@@ -1,8 +1,8 @@
 "use client";
-import ProductPage from "./productPage/page";
+import HomePage from "./home";
 
 export default function Home() {
   return (
-    < ProductPage />
+    < HomePage />
   );
 }

@@ -29,8 +29,7 @@ export default function FloatingButton({ text, position }: Props) {
     : undefined;
 
   const driftStyle: React.CSSProperties = {
-    animation: isHovered ? "none" : "floatX 2.4s ease-in-out infinite alternate",
-    transform: isHovered ? "translateX(0)" : undefined,
+    animation: "floatX 2.4s ease-in-out infinite alternate",
   };
 
   const buttonStyle: React.CSSProperties = {
