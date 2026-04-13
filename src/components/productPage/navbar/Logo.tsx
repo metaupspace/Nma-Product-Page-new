@@ -5,21 +5,18 @@ import Image from 'next/image';
 export function Logo() {
     return (
         <Link
-            href="/"
+            href="/productPage"
             className="cursor-pointer flex items-center gap-3 flex-shrink-0"
         >
             <div className='flex items-center gap-3'>
                 <Image
-                src="/assets/productPage/logo.png"
-                alt="Neural Mind Atlas"
-                width={400}
-                height={400}
-                className="h-8 w-auto hidden dark:block"
+                src="/assets/productPage/cslogo.png"
+                alt="convosynth logo"
+                width={200}
+                height={200}
+                className="h-8 w-auto"
             />
-            <span className="text-[30px] leading-none text-white tracking-tight px-1 font-semibold">CS</span>
-
             </div>
-
         </Link>
     )
 }
