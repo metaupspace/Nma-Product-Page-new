@@ -71,13 +71,14 @@ export default function EngineeredAndBuilt() {
 				<div className="absolute inset-0 bg-gradient-to-l from-transparent via-transparent to-black" />
 			</div>
 
-					<div className="mt-10 grid gap-6">
-						<div className="flex flex-col items-start gap-6 rounded-2xl border border-white/10 bg-black/40  py-4 px md:flex-row md:items-center">
+					<div className="relative z-10 mt-10 grid gap-6">
+						<div className="relative z-10 flex flex-col items-start gap-6 rounded-2xl border border-white/10 bg-black/40 py-4 md:flex-row md:items-center">
 							<div className="relative h-[200px] w-[240px] ml-6 shrink-0 overflow-hidden rounded-md">
 								<Image
-									src="/assets/productPage/founder.png"
+									src="/assets/productPage/founderImage.png"
 									alt="Founder Leela Srinivasan"
-									fill
+									width={240}
+									height={200}
 									className="h-full w-full object-cover"
 								/>
 							</div>
