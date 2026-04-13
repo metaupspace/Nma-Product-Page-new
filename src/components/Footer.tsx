@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
+import { Linkedin, Twitter, Youtube, Facebook, Instagram, Slack } from "lucide-react";
 
 const footerSections = [
   {
@@ -163,14 +164,14 @@ const footerSections = [
 
 const Footer = () => {
   return (
-    <footer className="relative overflow-hidden text-white bg-brand-dark-blue">
-      <div className="absolute w-2/3 h-[800px] xl:left-[200px] -top-[900px] rounded-full bg-gradient-to-b from-cyan-400 to-blue-600 blur-[530.35px]" />
+    <footer className="relative overflow-hidden text-white bg-black">
+      <div className="absolute w-2/3 h-[800px] xl:left-[200px] -top-[900px] rounded-full bg-black" />
 
       <div className="relative px-4 py-12 mx-auto md:max-w-5xl xl:max-w-7xl">
         <div className="grid grid-cols-2 gap-12 md:grid-cols-4 lg:grid-cols-6 md:ml-[150px] xl:ml-36 xl:gap-16">
           {footerSections.map(({ heading, links }) => (
             <div key={heading} className="w-full">
-              <h3 className="mb-4 text-sm font-medium text-brand-cyan">
+              <h3 className="mb-4 text-sm font-medium text-[#777777] ">
                 {heading}
               </h3>
               <ul className="space-y-3">
@@ -188,98 +189,29 @@ const Footer = () => {
             </div>
           ))}
         </div>
+        <div className="mt-12 flex items-center justify-between border-t border-white/5 pt-8 lg:mr-24 pl-16">
+          <div className="text-sm text-gray-300">Terms of Service • Cookie Policy</div>
 
-        {/* Socials + Copyright */}
-        <div className="flex flex-col items-center gap-6 mt-12">
-          <div className="flex gap-4">
-            {[
-              {
-                img: (
-                  <Image
-                    src="/assets/FaceBook.png"
-                    alt="Facebook"
-                    height={30}
-                    width={34}
-                  />
-                ),
-                name: "facebook",
-                link: "#"
-              },
-              {
-                img: (
-                  <Image
-                    src="/assets/X.png"
-                    alt="Twitter"
-                    height={30}
-                    width={34}
-                  />
-                ),
-                link: "https://x.com/NeuralMindAtlas",
-                name: "twitter",
-              },
-              {
-                img: (
-                  <Image
-                    src="/assets/Instagram.png"
-                    alt="Instagram"
-                    width={34}
-                    height={30}
-                  />
-                ),
-                link: "https://www.instagram.com/neuralmindatlas/",
-                name: "Instagram",
-              },
-              {
-                img: (
-                  <Image
-                    src="/assets/Linkedin.png"
-                    alt="Linkedin"
-                    width={34}
-                    height={30}
-                  />
-                ),
-                name: "Linkedin",
-                link: "http://www.linkedin.com/in/neural-mind-atlas-adminstrator-3844b0366"
-              },
-              {
-                img: (
-                  <Image
-                    src="/assets/youtube.png"
-                    alt="Youtube"
-                    width={34}
-                    height={30}
-                  />
-                ),
-                name: "Youtube",
-                link: "https://www.youtube.com/@NeuralMindAtlas"
-              },
-              {
-                img: (
-                  <Image
-                    src="/assets/reddit.png"
-                    alt="Reddit"
-                    width={34}
-                    height={30}
-                  />
-                ),
-                name: "Reddit",
-                link: "https://www.reddit.com/user/neuralmindatlas/"
-              },
-            ].map((item) => (
-              <Link key={item.name} href={item.link}>
-                <button className="p-3 rounded-full hover:bg-gray-500">
-                  {item.img}
-                </button>
-              </Link>
-            ))}
+          <div className="flex items-center gap-4">
+            <a aria-label="LinkedIn" href="http://www.linkedin.com/in/neural-mind-atlas-adminstrator-3844b0366" target="_blank" rel="noopener noreferrer" className="text-gray-200">
+              <Linkedin size={20} />
+            </a>
+            <a aria-label="X" href="https://x.com/NeuralMindAtlas" target="_blank" rel="noopener noreferrer" className="text-gray-200">
+              <Twitter size={20} />
+            </a>
+            <a aria-label="YouTube" href="https://www.youtube.com/@NeuralMindAtlas" target="_blank" rel="noopener noreferrer" className="text-gray-200">
+              <Youtube size={20} />
+            </a>
+            {/* <a aria-label="Facebook" href="#" className="text-gray-200">
+              <Facebook size={20} />
+            </a> */}
+            <a aria-label="Instagram" href="https://www.instagram.com/neuralmindatlas/" target="_blank" rel="noopener noreferrer" className="text-gray-200">
+              <Instagram size={20} />
+            </a>
+            {/* <a aria-label="Slack" href="https://www.reddit.com/user/neuralmindatlas/" target="_blank" rel="noopener noreferrer" className="text-gray-200">
+              <Slack size={20} />
+            </a> */}
           </div>
-          <p className="text-sm text-gray-400">
-            © 2025{" "}
-            <Link className="underline" href="/">
-              Neural Mind Atlas
-            </Link>
-            . All rights reserved.
-          </p>
         </div>
       </div>
     </footer>
